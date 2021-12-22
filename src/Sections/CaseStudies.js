@@ -1,7 +1,6 @@
 import React from 'react'
-import BlogContainer from './BlogContainer'
-
-const ThirdContainer = () => {
+import CompanyReview from './CompanyReview'
+const CaseStudies = () => {
     return (
         <div>
               <section className="third-image-container">
@@ -52,9 +51,9 @@ const ThirdContainer = () => {
                    <button className="read-more">Read more</button>
                </div>
                   </div> 
-                  <BlogContainer/>
+                  <CompanyReview/>
         </div>
     )
 }
 
-export default ThirdContainer
+export default CaseStudies

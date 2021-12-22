@@ -1,7 +1,8 @@
 import React from 'react'
 import Footer from './Footer'
+import OnlyTextCarousel from './OnlyTextCarousel'
 // import {Carousel} from 'react-bootstrap'
-const BlogContainer = () => {
+const CompanyReview = () => {
     return (
         <div className="blog-container">
             <div className="button-div">
@@ -9,6 +10,7 @@ const BlogContainer = () => {
             </div>
             <h2 className="title">WHAT PEOPLE SAY ABOUTUS</h2>
            <div className="seperation"></div>
+           <OnlyTextCarousel/>
                    <h2 className="title">EXPLORE THE BLOGS</h2>
                    <div className="blog-seperation"></div>
                    <div className="blog-card-row">
@@ -38,4 +40,4 @@ const BlogContainer = () => {
     )
 }
 
-export default BlogContainer
+export default CompanyReview

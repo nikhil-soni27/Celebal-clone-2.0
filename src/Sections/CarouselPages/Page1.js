@@ -18,7 +18,6 @@ const Page1 = () => {
                 <img src="https://celebaltech.com/assets/img/Website%20Carousel%20Assets/trophy4.svg" class="slideimg2" />
               </div>
             </div>
-
           </Carousel.Caption>
           <img
             className="d-block w-100"
@@ -40,12 +39,11 @@ const Page1 = () => {
                 <div className='row rowslide row1 align-middle'>
                   <div class="col-lg-6">
                   <h1 className="micro">
-          Digital Technological <br></br>Innovation to Build <br></br>Enterprise
-          of the<br></br> Future
+          Digital Technological Innovation to Build Enterprise
+          of the Future
         </h1>
-        <p className="text">Expertise in SAP Extend and Innovate</p>
-                    <div class="align-items">
-                    </div>  </div>
+        <p>Expertise in SAP Extend and Innovate</p>
+                    </div>
                   <div class="col-lg-2 align-middle">
                     <img src="https://celebaltech.com/assets/img/Website%20Carousel%20Assets/2.png" class="img3" />
                   </div>

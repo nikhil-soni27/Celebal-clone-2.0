@@ -37,7 +37,8 @@
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
-    justify-content: space-around;
+    gap: 3rem;
+    justify-content: center;
   }
   .imagesfooter {
     padding: 60px 0 30px;

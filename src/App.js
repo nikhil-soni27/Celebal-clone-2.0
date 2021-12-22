@@ -1,4 +1,4 @@
-import MiddleContainer from './Components/MiddleContainer'
+import MiddleContainer from './Sections/Alphabets'
 function App() {
   return (
     <div className="App">

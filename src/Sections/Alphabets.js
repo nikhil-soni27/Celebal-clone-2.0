@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
-import CardContainer from './CardContainer'
-const MiddleContainer = () => {
+import Services from './Services'
+const Alphabets = () => {
     return (
         <div>
             <Navbar/>
@@ -30,9 +30,9 @@ const MiddleContainer = () => {
                 <h3 className="title-inside-div">We Manage Your Enterprise Needs, so You Can Manage Your Business</h3>
                </div>
            </section>
-           <CardContainer/>
+           <Services/>
         </div>
     )
 }
 
-export default MiddleContainer
+export default Alphabets

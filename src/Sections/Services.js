@@ -1,6 +1,6 @@
 import React from 'react'
-import ThirdContainer from './ThirdContainer'
-const CardContainer = () => {
+import CaseStudies from './CaseStudies'
+const Services = () => {
     return (
         <div>
             <h2 className="title">CHECK OUR SERVICES</h2>
@@ -51,9 +51,9 @@ const CardContainer = () => {
                </div>
            </div>
            </div>
-           <ThirdContainer/>
+           <CaseStudies/>
         </div>
     )
 }
 
-export default CardContainer
+export default Services
