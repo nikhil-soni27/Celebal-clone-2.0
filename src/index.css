@@ -1,13 +1,460 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins&family=Raleway&display=swap');
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
+.navvbar{
+  display: flex;
+  color: #fff;
+  background-color: rgba(0,0,0,.781)!important;
+  font-size: 14px;
+  align-items: center;
+  height:4rem!important;
+  justify-content: space-between;
+}
+.navbar-button{
+  padding: .25rem .5rem;
+  font-size: .875rem;
+  line-height: 1.5;
+  border-radius: .2rem;
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #fff;
+  background:transparent;
+  border-radius: .25rem;
+}
+.nav-list{
+  display: flex;
+  font-size:14px;
+  list-style-type: none;
+  gap: 2rem;
+}
+.navbar-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.celebal-logo{
+  height:50px;
+}
+.title{
+  font-size: 24px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0 0 5px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #aaa;
+  font-family: Poppins,sans-serif;
+}
+.seperation{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width:65%;
+  margin-left: 18rem;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+.blog-seperation{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  width: 78%;
+  margin-left:10rem;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+.alphabets{
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+}
+.a,.b,.c,.d{
+  font-size: 250px;
+  color: #808080;
+  font-family: 'Monoton', cursive;
+}
+.a:hover{
+color: rgb(235,127,128);
+}
+.b:hover{
+  color: rgb(235,127,128);
+  }
+  .c:hover{
+    color: rgb(235,127,128);
+    }
+    .d:hover{
+      color: rgb(235,127,128);
+      }
+    .image-container{
+      margin: 25px 0;
+      width: 100%;
+      height: 200px;
+      position: relative;
+      color: #fff;
+    }
+    .third-image-container{
+      margin: 25px 0;
+      width: 100%;
+      height: 350px;
+      position: relative;
+      color: #fff;
+    }
+    .third-title-inside-div{
+      color: #fff;
+      font-size: 28px;
+      font-family: Raleway;
+      text-align: center;
+      font-weight: 700;
+    }
+    .image-div{
+      background-image: url('https://celebaltech.com/assets/img/cta-bg.webp');
+      min-height: 100%;
+      background-attachment: fixed;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+.text-under{
+  font-size:20px;
+  font-family: Raleway;
+  color:#808080;
+  margin-top: -6rem;
+  margin-left: 1rem;
+}
+.text-under-b{
+  font-size:20px;
+  font-family: Raleway;
+  color:#808080;
+  margin-top: -6rem;
+  margin-left: 3rem;
+}
+    .third-image-div{
+      background-image: url('https://celebaltech.com/assets/img/EKKA_result.webp');
+      min-height: 100%;
+      padding-top:6rem;
+      background-attachment: fixed;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .title-inside-div{
+      font-family: 'Raleway', sans-serif;
+      font-size: 28px;
+      text-align: center;
+      padding-top:5rem;
+    }
+    .card-row1{
+      display: flex;
+      justify-content: center;
+      padding-top: 1.5rem;
+      padding-left: 1.2rem;
+    }
+    .card-row{
+      display: flex;
+      justify-content: center;
+      padding-top: 2rem;
+      padding-left: 1.2rem;
+      gap: 1.5rem;
+    }
+    .blog-card-row{
+      display: flex;
+      justify-content: center;
+      padding-top: 2rem;
+      padding-left: 1.2rem;
+      gap: 3rem;
+    }
+    .card-image{
+      height: 196px;
+      width: 100%;
+    }
+    .cards-image{
+      width: 100%;
+      height:196px;
+    }
+    .card{
+      width:16rem;
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: 0.25rem;
+    }
+    .blog-card{
+      width: 20rem;
+      margin-top: 10px;
+      height: 13rem;
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: 0.25rem;
+    }
+    .long-card{
+      width: 41.5rem;
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: 0.25rem;
+      margin-left: 0.3rem;
+    }
+    .cards{
+      width: 20rem;
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: 0.25rem;
+    }
+    .cards-without-image{
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: 0.25rem;
+      width: 20rem;
+      height:11rem;
+      gap: 2rem;
+    }
+    .card-heading{
+      font-family: Raleway;
+      font-size: 1.25rem;
+      text-align: center;
+      font-weight: 500;
+      padding: 1rem;
+      color:#212529;
+      font-weight:500;
+    }
+    .card-para{
+      margin-top: -1rem;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 14px;
+    text-align: center;
+    line-height:1.5;
+    font-weight: 400;
+    padding: 0.7rem;
+    color: #212529;
+    }
+    .cards-para-blog{
+      font-size:16px;
+      font-family: Raleway;
+      padding-left: 1rem;
+      color: #6c757d;
+    }
+    .cards-heading{
+      font-family: Raleway;
+      font-size: 1.25rem;
+      padding: 1rem;
+      font-weight: 600;
+      color:#212529;
+      font-weight:500;
+    }
+    .cards-para{
+    margin-top: -1rem;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 14px;
+    line-height:1.5;
+    font-weight: 400;
+    padding: 1rem;
+    color: #212529;
+    }
+    .card-row2{
+      display: flex;
+      justify-content: center;
+      padding-left: 1.2rem;
+    }
+    .third-para{
+      font-size:16px;
+      font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+      text-align: center;
+      width: 86rem;
+      padding-left: 15rem;
+      padding-top: 1rem;
+    }
+    .third-image-container{
+      margin-top: 4rem;
+    }
+    .read-more{
+      color: #007bff;
+      border: none !important;
+      background: none;
+      margin-top: -2rem;
+      padding-left: 1rem;
+    }
+    .two-cards{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .btn1{
+      display: inline-block;
+      font-weight: 400;
+      color: #fff;
+      text-align: center;
+      background-color: #343a40;;
+      border: 1px solid transparent;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      border-radius: .25rem;
+    }
+    .button-div{
+      display: flex;
+      justify-content: center;
+      margin-top:3.5rem;
+      margin-bottom: 4rem;
+    }
+    .see-full-blog{
+      text-decoration: none;
+      font-size:14px;
+      color: #cf3020;
+      padding-left: 1rem;
+    }
+    .blog-div{
+      display: flex;
+      justify-content: center;
+    }
+    .blog-button{
+      background-color: #cf3020;
+      color: #fff;
+      margin: 20px;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+    .blog-container{
+      width: 100%;
+    }
+    h1 {
+      font-size: 40px;
+      color: #fcf3f6;
+      text-align: left;
+    }
+    h2 {
+      font-family: "Poppins";
+    }
+    .logo {
+      float: left;
+    }
+    .cartoon {
+      position: absolute;
+      right: 15%;
+      display: flex;
+      bottom: 15rem;
+      left: 15%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      color: #fff;
+      text-align: center;
+    }
+    .align-middle {
+      text-align: left;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    }
+    .img2 {
+      height: 300px;
+      width: auto;
+      margin: 10px;
+      float: right;
+      padding-right: 12rem;
+    }
+    .img1 {
+      height: 300px;
+      width: auto;
+      margin: 10px;
+      float: right;
+      /* padding-right: 12rem; */
+    }
+    .img3 {
+      height: 300px;
+      margin: 15px;
+      padding-top: 1rem;
+    }
+    .text {
+      font-family: "Poppins";
+      text-align: left;
+      line-height: 1.8rem;
+      font-size: 18px;
+      font-weight: 600;
+      padding-bottom: -3rem;
+    }
+    .third-page-text{
+      text-align: left;
+    }
+    .text-micro {
+      font-size: 40px;
+      font-weight: 400;
+      text-align: left;
+    }
+    .text-partner {
+      font-weight: 600;
+      font-size: 40px;
+    }
+    .text-india {
+      font-weight: 400;
+      font-size: 40px;
+    }
+    .text-winner {
+      font-size: 32px;
+      font-family: Poppins;
+    }
+    .bg {
+      background-size: cover;
+    }
+    .footer-heading {
+      font-size: 12px;
+      font-family: Raleway;
+      color: #fff;
+      font-weight: 700;
+      padding-left: 2rem;
+      padding-bottom: 1rem;
+  }
+  .sub-text{
+    font-family: Poppins;
+      text-align: left;
+  }
+  .micro , .india{
+    font-size: 40px;
+      font-weight: 400;
+  
+  } *
+  .partner{
+    font-size: 40px;
+      font-weight: 600;
+  }
+  .carousel{
+    height: 800px;
+   
+  }
+  .carousel-item{
+    min-height: 100px;
+    height: 50%;
+   
+  }
+  .slideimg1{
+      width: 80px;
+      height: 70px;
+      float: left;
+      margin-top: 1px;
+  }
+  .box1{
+    display: flex;
+    align-items: center;
+  }
+  .carousel-caption {
+    display: flex;
+    align-items: center;
+    flex:1;
+    justify-content: space-between;
+    top: -2rem;
+  }
+  .slideimg2{
+      height: 270px;
+      width: 150%;
+  }
+  .w-100 {
+    height:100vh!important;
+  }
+  .carousel-control-next-icon .carousel-control-prev-icon {
+   display: none;
+  }
+  .carousel-indicators [data-bs-target]{
+    margin-top: -9rem;
+  }
+.col-lg-6{
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
 }
